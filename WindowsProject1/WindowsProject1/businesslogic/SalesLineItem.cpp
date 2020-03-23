@@ -1,6 +1,6 @@
 #include "SalesLineItem.h"
 
-SalesLineItem::SalesLineItem(ProdictDescription desc, int quantity) {
+SalesLineItem::SalesLineItem(ProductDescription desc, int quantity) {
     this->quantity = quantity;
 }
 int SalesLineItem::getSubtotal() {

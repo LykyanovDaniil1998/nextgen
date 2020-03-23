@@ -36,9 +36,6 @@
     <ClInclude Include="businesslogic\Payment.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="businesslogic\Product.Catalog.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
     <ClInclude Include="businesslogic\ProductDescription.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
@@ -48,15 +45,18 @@
     <ClInclude Include="businesslogic\Money.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="businesslogic\ProductCatalog.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="businesslogic\ItemId.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="WindowsProject1.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="businesslogic\Store.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="businesslogic\Product.Catalog.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="businesslogic\ProductDescription.cpp">
@@ -72,6 +72,12 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="businesslogic\Money.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="businesslogic\ProductCatalog.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="businesslogic\ItemId.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>

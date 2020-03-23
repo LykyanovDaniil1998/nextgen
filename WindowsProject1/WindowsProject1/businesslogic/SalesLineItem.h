@@ -5,8 +5,8 @@ class SalesLineItem
 {
 private: 
 	int quantity;
-	ProdictDescription description;
+	ProductDescription description;
 public: 
-	SalesLineItem(ProdictDescription desc, int quantity);
+	SalesLineItem(ProductDescription desc, int quantity);
 	int getSubtotal();
 };

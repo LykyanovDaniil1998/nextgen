@@ -147,8 +147,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="businesslogic\ItemId.h" />
     <ClInclude Include="businesslogic\Payment.h" />
-    <ClInclude Include="businesslogic\Product.Catalog.h" />
+    <ClInclude Include="businesslogic\ProductCatalog.h" />
     <ClInclude Include="businesslogic\ProductDescription.h" />
     <ClInclude Include="businesslogic\Sale.h" />
     <ClInclude Include="businesslogic\SalesLineItem.h" />
@@ -160,8 +161,9 @@
     <ClInclude Include="WindowsProject1.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="businesslogic\ItemId.cpp" />
     <ClCompile Include="businesslogic\Payment.cpp" />
-    <ClCompile Include="businesslogic\Product.Catalog.cpp" />
+    <ClCompile Include="businesslogic\ProductCatalog.cpp" />
     <ClCompile Include="businesslogic\ProductDescription.cpp" />
     <ClCompile Include="businesslogic\Sale.cpp" />
     <ClCompile Include="businesslogic\SalesLineItem.cpp" />
